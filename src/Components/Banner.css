@@ -1,0 +1,45 @@
+.banner {
+  background: url("https://www.thespruce.com/thmb/tgHH3w_7FTt-LrWhatL2BwX-fgo=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Gray-Living-Room-with-Wood-Mantel-Kristin-Hoaglund-Design-586eefa65f9b584db3f3ede9.jpg")
+    center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 60vh;
+  object-fit: contain;
+  position: relative;
+}
+.banner__search {
+  display: flex;
+  flex-direction: column;
+}
+.banner__searchButton {
+  background-color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  color: #ff7779 !important;
+}
+.banner__info {
+  background-color: black;
+  color: white;
+  padding-top: 20vh;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  padding-bottom: 3vw;
+  width: 300px;
+  max-width: 35vw;
+  /* max-height: 50vh; */
+}
+.banner__info > button {
+  margin-top: 20px;
+  font-weight: 600;
+  background-color: #ff7779;
+  color: white;
+  text-transform: inherit !important;
+}
+.banner__info > button:hover {
+  background-color: #ffff;
+  color: #ff7779;
+}
+.banner__info > h5 {
+  margin-top: 10px;
+}

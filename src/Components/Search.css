@@ -1,0 +1,41 @@
+.search {
+  display: flex;
+  position: absolute;
+  margin-top: 35px;
+  margin-left: 25%;
+  width: 100vw;
+  flex-direction: column;
+}
+.search > h2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 559px;
+  padding: 10px;
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+  top: 380px;
+}
+.search > input {
+  width: 539px;
+  padding: 20px;
+  left: 0;
+  margin-top: 30px;
+  height: 30px;
+  border: none;
+  outline: none;
+}
+.search > button {
+  position: absolute;
+  left: 0;
+  top: 480px;
+  text-transform: inherit !important;
+  background-color: #ff7779;
+  color: #fff;
+  width: 579px;
+}
+.search > button:hover {
+  background-color: #fff;
+  color: #ff7779;
+}
