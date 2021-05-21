@@ -35,14 +35,14 @@ function Header() {
           value={input}
           onChange={(e) => setInput(e.target.value)}
         />
-        <SearchIcon onClick={searchAirbnb} />
+        <SearchIcon className="header__icon" onClick={searchAirbnb} />
       </div>
 
       <div className="header__right">
-        <p>Become a host</p>
-        <LanguageIcon />
-        <ExpandMoreIcon />
-        <Avatar />
+        <p className="header__icon">Become a host</p>
+        <LanguageIcon className="header__icon" />
+        <ExpandMoreIcon className="header__icon" />
+        <Avatar className="header__icon" />
       </div>
     </div>
   );
