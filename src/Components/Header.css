@@ -8,10 +8,11 @@
   z-index: 100;
   width: 100%;
 }
-.header__icon {
+.header__logo {
   object-fit: contain;
   height: 100px;
   margin-left: 1vw;
+  cursor: pointer;
 }
 .header__center {
   display: flex;
@@ -27,6 +28,9 @@
   border: none;
   outline: none;
   max-width: 30vw;
+}
+.header__icon{
+  cursor: pointer;
 }
 .header__right {
   display: flex;
